@@ -1,9 +1,11 @@
 // Live demo at https://awywi-only-display-operations.surge.sh/
 
 const OnlyDisplayOperationsPlugin = (system) => {
+  const React = system.React // React must be in scope when using JSX syntax
+
   return {
     components: {
-      OperationsLayout: system.React.createClass({
+      OperationsLayout: React.createClass({
         render: function() {
           const Operations = system.getComponent("operations", true)
 
