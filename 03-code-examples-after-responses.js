@@ -6,7 +6,7 @@ const CodeExamplesAfterResponsesPlugin = () => {
       responses: (OriginalComponent, { React }) => (props) => {
         return <div>
           <OriginalComponent {...props} />
-          <iframe src="https://docs.cloudmersive.com" width="100%" height="30px" />
+          <iframe src="https://docs.cloudmersive.com" width="100%" height="300px" />
         </div>
       }
     }
