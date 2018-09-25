@@ -9,3 +9,4 @@ These demos are deployed alongside Swagger UI 3.19.0. Each plugin was compiled w
 - [`close-auth-modal-after-auth`](https://awywi-close-auth-modal.surge.sh)
 - [`only-display-operations`](https://awywi-only-display-operations.surge.sh/)
 - [`code-examples-after-responses`](https://awywi-code-examples-after-responses.surge.sh/)
+- [`cornify`](https://awywi-cornify.surge.sh)
